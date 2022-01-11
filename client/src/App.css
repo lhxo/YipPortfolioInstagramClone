@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Grand+Hotel&display=swap');
+
+a{
+  color: black !important;
+}
+
+.brand-logo, h2{
+  font-family: 'Grand Hotel', cursive;
+}
+
+.mycard{
+  margin-top: 30px;
+}
+
+.auth-card{
+  padding: 20px;
+  text-align: center;
+  max-width: 400px;
+  margin: 10px auto;
+}
+
+.input-field input[type=text]:focus {
+  border-bottom: 1px solid rgb(8, 93, 252) !important;
+  box-shadow: 0 1px 0 0 rgb(8, 93, 252) !important;
+}
+
+.input-field input[type=password]:focus {
+  border-bottom: 1px solid rgb(8, 93, 252) !important;
+  box-shadow: 0 1px 0 0 rgb(8, 93, 252) !important;
+}
+
+.wrapper {
+  max-width:575px;
+  margin: 0px auto;
+}
+
+.container {
+  display:flex;
+  justify-content:space-around;
+  margin: 18px auto;
+  border-bottom:1px solid grey;
+}
+
+.profilepicture {
+  width:160px;
+}
+
+.profilepicture img{
+  width:160px;
+  height:160px; 
+  border-radius:80px;
+}
+
+.profilepicture button {
+  margin: 10px 0px 10px 10px;
+}
+
+.profileinfobox{
+}
+
+.profilestats {
+  display:flex;
+  justify-content: space-between;
+  width:108%;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.item {
+  width: 30%;
+}
+
+.home {
+
+}
+
+.home-card {
+  margin: 26px auto;
+  max-width: 500px;
+  height: max-content;
+}
+
+.home-card h5 {
+  padding: 5px 0px 5px 10px;
+}
+
+.input-files {
+  margin: 30px auto;
+  max-width: 500px;
+  padding: 40px;
+  text-align: center;
+}
+
+#toast-container{
+  top: 30px !important;
+  right: 20px !important;
+  left: auto !important;
+  bottom: auto !important;
+}
+
+.modal {
+  color: black
+}
+
+.collection-item{
+  width:100%
+}
