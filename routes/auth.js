@@ -17,8 +17,6 @@ const transporter = nodemailer.createTransport(sendgridTransport({
     }
 }))
 
-//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
-
 ///<!-----Below are useful notes from Gerry----->
 
 // Two functions below are the exact same thing (but not really, but you'll learn later :))
